@@ -3,6 +3,15 @@ body {
     background-image: url("https://blog.geocities.institute/wp-content/uploads/02.png");
     background-repeat: repeat;
     text-align: center;
-    font-size: 16px;
+    font-size: 32px;
     color:white;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    text-align: left;
+    font-size: 24px;
 }
