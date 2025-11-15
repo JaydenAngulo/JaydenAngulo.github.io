@@ -26,33 +26,63 @@ p {
     gap: 20px;
 }
 
+.row2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.row3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
 .cristiano-ronaldo {
-    width: 300px;
+    display: block;
+    width: 400px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 }
 
-.right-text {
+.ol {
+    align-items: left;
+    width: 33%;
+    position: absolute;
+}
+
+.soccer {
     flex: 1;
 }
 
 .top-5 {
     text-align: left;
-    margin-bottom: 20px;
-}
-
-ol {
-    padding-left: 20px;
+    position: relative;
+    margin-right: 66%;
 }
 
 .toy-poodle {
     width: 300px;
+    position: relative;
 }
 
 .nintendo-switch {
     width: 300px;
 }
 
-.first-gif {
+.goalkeeper-gif {
     width: 300px;
     position: relative;
+}
+
+.ronaldo-label {
+    width: 33%;
+}
+
+.toy-poodle-label {
+    flex: 1;
 }
