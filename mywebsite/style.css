@@ -1,10 +1,13 @@
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Century Gothic';
     background-image: url("https://blog.geocities.institute/wp-content/uploads/02.png");
     background-repeat: repeat;
     text-align: center;
+    line-height: 1.25;
     font-size: 32px;
     color:white;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 h2 {
@@ -16,6 +19,40 @@ p {
     font-size: 24px;
 }
 
-img {
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.cristiano-ronaldo {
     width: 300px;
+    position: relative;
+}
+
+.right-text {
+    flex: 1;
+}
+
+.top-5 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+.toy-poodle {
+    width: 300px;
+}
+
+.nintendo-switch {
+    width: 300px;
+}
+
+.first-gif {
+    width: 1000px;
+    position: relative;
 }
