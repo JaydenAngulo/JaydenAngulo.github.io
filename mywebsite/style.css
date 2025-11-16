@@ -1,5 +1,5 @@
 body {
-    font-family:'Century Gothic';
+    font:'Century Gothic';
     background-image: url("https://blog.geocities.institute/wp-content/uploads/02.png");
     background-repeat: repeat;
     text-align: center;
@@ -15,26 +15,16 @@ h2 {
     font-size: 30px;
 }
 
+h3 {
+    font-size: 24px;
+}
+
 p {
     text-align: left;
     font-size: 24px;
 }
 
-.row {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
-}
-
-.row2 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
-}
-
-.row3 {
+.row, .row2, .row3, .row4 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -42,9 +32,10 @@ p {
 }
 
 .cristiano-ronaldo {
+    border: 2px solid black;
     display: block;
     width: 400px;
-    align-items: center;
+    align-self: center;
     margin: auto;
     position: relative;
 }
@@ -55,7 +46,7 @@ p {
     position: absolute;
 }
 
-.soccer {
+.soccer, .toy-poodle-label {
     flex: 1;
 }
 
@@ -84,6 +75,23 @@ p {
     width: 33%;
 }
 
-.toy-poodle-label {
-    flex: 1;
+.videogame-text {
+    text-align: left;
+}
+
+.ul {
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.gifs-text {
+    text-align: center;
+}
+
+.nintendo-earth, .mario, .mario-running  {
+    height: 300px;
 }
